@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import {v4 as uuid} from "uuid";
 
 import api from './services/api';
 
@@ -17,7 +16,6 @@ function App() {
   async function handleAddRepository() {
     // TODO
     const newRepository = {
-      // id: uuid(), 
       id: "123",
       url: "https://github.com/josepholiveira",
       title: "Desafio ReactJS",
